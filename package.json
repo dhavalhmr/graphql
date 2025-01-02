@@ -1,0 +1,27 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dhavalhmr/graphql.git",
+  "author": "Milan-Koladiya <developer.milankoladiya@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "@prisma/client": "6.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "graphql": "^16.10.0",
+    "prisma": "^6.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/node": "^22.10.3",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.2"
+  }
+}
