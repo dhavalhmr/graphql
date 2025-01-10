@@ -12,10 +12,14 @@
   "dependencies": {
     "@apollo/server": "^4.11.2",
     "@prisma/client": "6.1.0",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "graphql": "^16.10.0",
     "prisma": "^6.1.0",
+    "puppeteer": "^23.11.1",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
